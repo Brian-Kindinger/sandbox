@@ -1,0 +1,19 @@
+{
+    "description":"Just a tiny test to see if I can get this to work",
+    "resources":[{
+                    "ID":"A",
+                    "class":"proto1",
+                    "scope": "FPGA0"
+                },
+                {
+                    "ID":"B",
+                    "class":"proto2",
+                    "scope":"FPGA0"
+                },
+                {
+                    "ID":"C",
+                    "class":"proto3",
+                    "scope":"FPGA0"
+                }
+            ]
+ }
