@@ -1,4 +1,5 @@
 {
+    "version":"0.0.1",
     "description":"Just a tiny test to see if I can get this to work",
     "resources":[{
                     "ID":"A",
@@ -15,5 +16,13 @@
                     "class":"proto3",
                     "scope":"FPGA0"
                 }
-            ]
+    ],
+    "edges":[{
+        "source":"A",
+        "sink":"B"
+    },
+    {
+        "source": "B",
+        "sink":"C"
+    }]
  }

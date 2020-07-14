@@ -1,4 +1,9 @@
 {
-    "item1":"test",
-    "item3":"123"
+    "inports":["port1", "port2"],
+    "outports":["portABC"],
+    "configItems":{
+                    "item1":"1",
+                    "item2":"2",
+                    "item3":"3"
+                    }
 }
