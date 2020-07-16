@@ -1,0 +1,90 @@
+[
+    {
+        "ID": "A",
+        "class": "proto1",
+        "scope": "FPGA2",
+        "inports": [
+            "portA",
+            "portB",
+            "portC"
+        ],
+        "outports": [
+            "portD",
+            "portF"
+        ],
+        "configItems": [
+            {
+                "GUID": "63a42e6e-ebe2-47a3-a287-a856e652b3e3",
+                "name": "item1",
+                "value": "1"
+            },
+            {
+                "GUID": "00caedc3-ccf7-4ca6-b320-18b418972e9e",
+                "name": "item2",
+                "value": "2"
+            },
+            {
+                "GUID": "42bdd9d1-dc8d-4c56-abce-9ec07a8ebd9b",
+                "name": "item3",
+                "value": "3"
+            }
+        ]
+    },
+    {
+        "ID": "B",
+        "class": "proto2",
+        "scope": "FPGA0",
+        "inports": [
+            "port1",
+            "port2"
+        ],
+        "outports": [
+            "portABC"
+        ],
+        "configItems": [
+            {
+                "GUID": "084f7e3c-546f-497a-b565-bbd7ff0836fb",
+                "name": "item1",
+                "value": "1"
+            },
+            {
+                "GUID": "86249b60-6361-450c-b247-6623af2b6124",
+                "name": "item2",
+                "value": "2"
+            },
+            {
+                "GUID": "78292358-9ef6-42b3-94ea-e1e7c1757467",
+                "name": "item3",
+                "value": "3"
+            }
+        ]
+    },
+    {
+        "ID": "C",
+        "class": "proto3",
+        "scope": "FPGA2",
+        "inports": [
+            "portX"
+        ],
+        "outports": [
+            "portY"
+        ],
+        "configItems": [
+            {
+                "GUID": "fd9bfc0f-230e-4eac-95e9-4121e0b91f13",
+                "name": "item1",
+                "value": "1"
+            },
+            {
+                "GUID": "3782cdf5-ef03-40b4-bbcb-9e53442b1547",
+                "name": "item2",
+                "value": "2"
+            },
+            {
+                "GUID": "4438e2a6-1082-41ee-8a72-68c89697d6cb",
+                "name": "item3",
+                "value": "3"
+            }
+        ]
+    }
+]

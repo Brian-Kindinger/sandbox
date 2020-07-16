@@ -1,10 +1,10 @@
 {
     "version":"0.0.1",
     "description":"Just a tiny test to see if I can get this to work",
+    "defaultscope":"FPGA2",
     "resources":[{
                     "ID":"A",
-                    "class":"proto1",
-                    "scope": "FPGA0"
+                    "class":"proto1"
                 },
                 {
                     "ID":"B",
@@ -13,16 +13,19 @@
                 },
                 {
                     "ID":"C",
-                    "class":"proto3",
-                    "scope":"FPGA0"
+                    "class":"proto3"
                 }
     ],
     "edges":[{
         "source":"A",
-        "sink":"B"
+        "sourceport":"",
+        "sink":"B",
+        "sinkport":""
     },
     {
         "source": "B",
-        "sink":"C"
+        "sourceport":"",
+        "sink":"C",
+        "sinkport":""
     }]
  }
