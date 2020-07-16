@@ -1,9 +1,9 @@
 {
     "inports":["port1", "port2"],
-    "outports":["portABC"],
+    "version": 2,
+    "outports":["nooutport"],
     "configItems":{
-                    "item1":"1",
-                    "item2":"2",
+                    "item1":"ABC",
                     "item3":"3"
                     }
 }

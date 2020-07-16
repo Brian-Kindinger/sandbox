@@ -1,19 +1,20 @@
 {
     "version":"0.0.1",
     "description":"Just a tiny test to see if I can get this to work",
-    "defaultscope":"FPGA2",
+    "defaultscope":"FPGA0",
+    "multiscope": ["FPGA0","FPGA1"],
     "resources":[{
                     "ID":"A",
-                    "class":"proto1"
+                    "template":"proto1"
                 },
                 {
                     "ID":"B",
-                    "class":"proto2",
+                    "template":"proto2",
                     "scope":"FPGA0"
                 },
                 {
                     "ID":"C",
-                    "class":"proto3"
+                    "template":"proto3"
                 }
     ],
     "edges":[{

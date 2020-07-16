@@ -1,0 +1,176 @@
+{
+    "resources": [
+        {
+            "ID": "A",
+            "template": "proto1",
+            "scope": "FPGA0",
+            "version": 1,
+            "inports": [
+                "portA",
+                "portB",
+                "portC"
+            ],
+            "outports": [
+                "portD",
+                "portF"
+            ],
+            "configItems": [
+                {
+                    "GUID": "df34bd8c-3c28-46cf-b5b3-06d7907db609",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "da3c5f32-b0b9-4c1e-aa05-c0d97eabbe0d",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "590bbba1-6743-434b-b8fd-b53cff297a5b",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "B",
+            "template": "proto2",
+            "scope": "FPGA0",
+            "version": 2,
+            "inports": [
+                "port1",
+                "port2"
+            ],
+            "outports": [
+                "nooutport"
+            ],
+            "configItems": [
+                {
+                    "GUID": "1a29e260-30d6-4b18-83d3-3e63bf215ad9",
+                    "name": "item1",
+                    "value": "ABC"
+                },
+                {
+                    "GUID": "88294c7b-6dbd-4e1e-a274-9864c57b4e31",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "C",
+            "template": "proto3",
+            "scope": "FPGA0",
+            "version": 1,
+            "inports": [
+                "portX"
+            ],
+            "outports": [
+                "portY"
+            ],
+            "configItems": [
+                {
+                    "GUID": "4e1a2018-a968-4220-bb97-a452a4b98e53",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "cbf78b5d-4fcd-4eb9-bf74-d8b265913918",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "e02ea8ea-c552-41ae-8773-2ce3e40e87d5",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "A",
+            "template": "proto1",
+            "scope": "FPGA1",
+            "version": 1,
+            "inports": [
+                "portA",
+                "portB",
+                "portC"
+            ],
+            "outports": [
+                "portD",
+                "portF"
+            ],
+            "configItems": [
+                {
+                    "GUID": "357a36ec-6639-4773-a967-b7ee67d4cbeb",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "8715e17c-e863-40c4-b8ee-4a6807881cbd",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "8c233e91-267c-4f2b-9da6-d35fe15308eb",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "B",
+            "template": "proto2",
+            "scope": "FPGA1",
+            "version": 2,
+            "inports": [
+                "port1",
+                "port2"
+            ],
+            "outports": [
+                "nooutport"
+            ],
+            "configItems": [
+                {
+                    "GUID": "98b3b963-4925-4860-b1bf-a863edf2fdfc",
+                    "name": "item1",
+                    "value": "ABC"
+                },
+                {
+                    "GUID": "8aa41e89-b5b7-4714-bdac-2948133b8da2",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "C",
+            "template": "proto3",
+            "scope": "FPGA1",
+            "version": 1,
+            "inports": [
+                "portX"
+            ],
+            "outports": [
+                "portY"
+            ],
+            "configItems": [
+                {
+                    "GUID": "1c072b4d-8ecf-40f4-9675-29fb93efca69",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "a2ecf25b-a49f-4c2b-bca8-9278c52c169d",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "5bd128ed-b9f9-43c9-a87a-7e128fb933f3",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        }
+    ]
+}

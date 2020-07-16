@@ -1,0 +1,90 @@
+{
+    "resources": [
+        {
+            "ID": "A",
+            "template": "proto1",
+            "scope": "FPGA0",
+            "version": 1,
+            "inports": [
+                "portA",
+                "portB",
+                "portC"
+            ],
+            "outports": [
+                "portD",
+                "portF"
+            ],
+            "configItems": [
+                {
+                    "GUID": "5e9d8cef-5f10-4443-92a8-e4206e8599b8",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "ec25e2c8-133b-4f53-9a93-18938bbc3642",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "a1508940-cb19-4038-ae12-f120f96f1d71",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "B",
+            "template": "proto2",
+            "scope": "FPGA0",
+            "version": 2,
+            "inports": [
+                "port1",
+                "port2"
+            ],
+            "outports": [
+                "nooutport"
+            ],
+            "configItems": [
+                {
+                    "GUID": "774c32dc-0776-4c2f-9ccc-a4280e0fc764",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "9e6e958d-fd76-487e-b6c7-956c1d1ae8b7",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        },
+        {
+            "ID": "C",
+            "template": "proto3",
+            "scope": "FPGA0",
+            "version": 1,
+            "inports": [
+                "portX"
+            ],
+            "outports": [
+                "portY"
+            ],
+            "configItems": [
+                {
+                    "GUID": "2f46a66a-24b6-410e-8624-bd502fb4fabe",
+                    "name": "item1",
+                    "value": "1"
+                },
+                {
+                    "GUID": "158855f6-115a-4d7b-9457-2e5c20473d4d",
+                    "name": "item2",
+                    "value": "2"
+                },
+                {
+                    "GUID": "41a5f5c3-3dc8-47bc-bf5f-549246efc792",
+                    "name": "item3",
+                    "value": "3"
+                }
+            ]
+        }
+    ]
+}
